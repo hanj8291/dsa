@@ -21,9 +21,20 @@ Data structures & Algorithms Visualization Website
 * Select a sort algorithm and see it sort the bar graph
 * Display the time/space complexity and # of operations
 
+**Algorithm Design Patterns**
+
+* User can select an algorithm design pattern and see a list of algorithms that make use of it
+* Select an algorithm to visualize
+* A problem that corresponds to that pattern is shown
+* The user can first try to solve the problem themselves
+* Then by clicking play, the problem is solved using the pattern
+* Disply the time/space complexity and # of operations
+
 **Mini-games**
 
-* 
+* Simple games are able to be played single or multi player
+* The game's bot is written using data structures and algorithms from the visualization component
+* The bot's moves are visualized on the side
 
 **Interview Questions**
 * Displays interview questions that I coded out using different methods to compare the time/space complexity between them
