@@ -1,5 +1,17 @@
 function search() {
 
+    var text = document.getElementById("searchbar").value;
+
+    if(text == 'algorithms') {
+        window.location.href = "pages/algorithms.html";
+    }
+    else if(text == 'data structures') {
+        window.location.href = "pages/datastructures.html";
+
+    }
+    else {
+        window.location.href = "index.html";
+    }
 }
 
 function openMenu() {

@@ -46,12 +46,21 @@
     transition:0.5s;
 }
 
-.page {
+#page {
     display: flex;
     background-color: gray;
     font-size: 15px;
     justify-content: space-evenly;
 
+}
+
+.tabs {
+    font-size: 15px;
+    
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .menu {
