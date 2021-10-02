@@ -1,0 +1,88 @@
+.navbar {
+    background-color: cyan;
+    position: sticky;
+    top: 0;
+}
+
+
+.top-nav {
+    /* separates into sections to split between right and left */
+    display: flex;
+    justify-content: space-between;
+
+    
+    /* removes bullets */
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.top-nav li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    font-size: 15px;
+    text-align: center; 
+    padding: 10px;
+    background-color: pink;
+}
+
+#side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left:0;
+    background-color: salmon;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition:0.5s;
+}
+
+#page {
+    display: flex;
+    background-color: gray;
+    font-size: 15px;
+    justify-content: space-evenly;
+
+}
+
+.tabs {
+    font-size: 15px;
+    
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    background-color: skyblue;
+}
+
+.text {
+    background-color: plum;
+}
+
+#p1 {
+    font-size: 20px;
+}
+
+#p2 {
+    font-size: 20px;
+}
+
+#bot-foot {
+    background-color: silver;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
