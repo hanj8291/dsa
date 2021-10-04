@@ -1,3 +1,5 @@
+//const { attemptSilentLogin } = require("express-openid-connect");
+
 // directs the user to the searched webpage
 function search() {
 
@@ -53,3 +55,4 @@ sideNav.addEventListener('click', () => sideNav.classList.contains('is-active') 
 
 // sets the side nav as closed when web page is initially loaded
 closeMenu();
+
